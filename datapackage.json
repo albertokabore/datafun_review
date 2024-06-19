@@ -1,0 +1,131 @@
+{
+  "accrual_periodicity": "annually",
+  "additional_limitations": "",
+  "citation": "Chronic Disease Control Branch, California Department of Public Health. 2014. diabetes, 2014.csv",
+  "contact_email": "opendata@cdph.ca.gov",
+  "data_collection_tool": "http://www.csus.edu/research/phsrp/brfss.html",
+  "data_license": "Terms of Use",
+  "de_identification_method": "",
+  "description": "This is a source dataset for a Let's Get Healthy California indicator at \"https://letsgethealthy.ca.gov/. This table displays the prevalence of diabetes in California. It contains data for California only. The data are from the California Behavioral Risk Factor Surveillance Survey (BRFSS). The California BRFSS is an annual cross-sectional health-related telephone survey that collects data about California residents regarding their health-related risk behaviors, chronic health conditions, and use of preventive services.  The BRFSS is conducted by Public Health Survey Research Program of California State University, Sacramento under contract from CDPH. This prevalence rate does not include pre-diabetes, or gestational diabetes. This is based on the question: \"Has a doctor, or nurse or other health professional ever told you that you have diabetes?\" The sample size for 2014 was 8,832. NOTE: Denominator data and weighting was taken from the California Department of Finance, not U.S. Census. Values may therefore differ from what has been published in the national BRFSS data tables by the Centers for Disease Control and Prevention (CDC) or other federal agencies.",
+  "geo_coverage": "California",
+  "geographic_granularity": "statewide",
+  "keywords": [
+    "behavioral risk factor surveillance survey",
+    "brfss",
+    "diabetes",
+    "diabetes prevalence",
+    "diabetes rate",
+    "lets get healthy california",
+    "lghc"
+  ],
+  "limitations": "Limitations",
+  "name": "adults-with-diabetes-per-100-lghc-indicator-23",
+  "program_web_page": "http://www.csus.edu/research/phsrp/brfss.html",
+  "related_resources": "",
+  "resources": [
+    {
+      "description": "This is a source dataset for a Let's Get Healthy California indicator at \"https://letsgethealthy.ca.gov/. This table displays the prevalence of diabetes in California. It contains data for California only. The data are from the California Behavioral Risk Factor Surveillance Survey (BRFSS). The California BRFSS is an annual cross-sectional health-related telephone survey that collects data about California residents regarding their health-related risk behaviors, chronic health conditions, and use of preventive services.  The BRFSS is conducted by Sacramento State under contract from CDPH. This prevalence rate does not include pre-diabetes, or gestational diabetes. This is based on the question: \"Has a doctor, or nurse or other health professional ever told you that you have diabetes?\" The sample size for 2014 was 8,832. NOTE: Denominator data and weighting was taken from the California Department of Finance, not U.S. Census. Values may therefore differ from what has been published in the national BRFSS data tables by the Centers for Disease Control and Prevention (CDC) or other federal agencies.",
+      "format": "CSV",
+      "name": "adults-with-diabetes-per-100-lghc-indicator-23-csv",
+      "path": "adults-with-diabetes-per-100-lghc-indicator-23-.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "Data is California state-level only",
+            "name": "Geography",
+            "title": "Geography",
+            "type": "string"
+          },
+          {
+            "description": "Year in which responses were given",
+            "name": "Year",
+            "title": "Year",
+            "type": "string"
+          },
+          {
+            "description": "General demographic category under which responses have been stratified. Age, Education, Race/Ethnicity, Sex, Income, Total Population.",
+            "name": "Strata",
+            "title": "Strata",
+            "type": "string"
+          },
+          {
+            "description": "Individual strata within a demographic category",
+            "name": "Strata Name",
+            "title": "Strata Name",
+            "type": "string"
+          },
+          {
+            "name": "Percent",
+            "type": "string"
+          },
+          {
+            "name": "Lower 95% CL",
+            "type": "string"
+          },
+          {
+            "name": "Upper 95% CL",
+            "type": "string"
+          },
+          {
+            "description": "For explanation of Confidence Interval, see https://en.wikipedia.org/wiki/Standard_error",
+            "name": "Standard Error",
+            "title": "Standard Error",
+            "type": "number"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/f9feb1b8-16de-41fc-a983-084bcf80db11/resource/49f4e583-da0d-4a2e-819a-4a0ebcc130f1/download/adults-with-diabetes-per-100-lghc-indicator-23.csv",
+          "title": "Adults with Diabetes Per 100 (LGHC Indicator 23) (CSV)"
+        }
+      ],
+      "title": "Adults with Diabetes Per 100 (LGHC Indicator 23) (CSV)"
+    },
+    {
+      "description": "This is a source dataset for a Let's Get Healthy California indicator at \"https://letsgethealthy.ca.gov/. This table displays the prevalence of diabetes in California. It contains data for California only. The data are from the California Behavioral Risk Factor Surveillance Survey (BRFSS). The California BRFSS is an annual cross-sectional health-related telephone survey that collects data about California residents regarding their health-related risk behaviors, chronic health conditions, and use of preventive services.  The BRFSS is conducted by Sacramento State under contract from CDPH. This prevalence rate does not include pre-diabetes, or gestational diabetes. This is based on the question: \"Has a doctor, or nurse or other health professional ever told you that you have diabetes?\" The sample size for 2014 was 8,832. NOTE: Denominator data and weighting was taken from the California Department of Finance, not U.S. Census. Values may therefore differ from what has been published in the national BRFSS data tables by the Centers for Disease Control and Prevention (CDC) or other federal agencies.",
+      "format": "XLSX",
+      "name": "adults-with-diabetes-per-100-lghc-indicator-23-dd",
+      "path": "adults-with-diabetes-per-100-lghc-indicator-23-dd.xlsx",
+      "schema": {
+        "fields": [
+          {
+            "name": "Column Name",
+            "type": "string"
+          },
+          {
+            "name": "Format",
+            "type": "string"
+          },
+          {
+            "name": "Definition",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/f9feb1b8-16de-41fc-a983-084bcf80db11/resource/4f210e78-4086-4193-b013-a79d1fc02849/download/adults-with-diabetes-per-100-lghc-indicator-23-dd.xlsx",
+          "title": "adults-with-diabetes-per-100-lghc-indicator-23-dd"
+        }
+      ],
+      "title": "adults-with-diabetes-per-100-lghc-indicator-23-dd"
+    },
+    {
+      "description": "California has the highest number of new cases of diabetes in the nation.[1] Diabetes is a chronic condition characterized by high levels of blood sugar resulting from issues with the body’s insulin production, insulin action, or both. Among US states, California has the highest number of new cases of diabetes.[1]\r\n\r\n[1] Center for Disease Control and Prevention. (2008, October 31). State-Specific Incidence of Diabetes Among Adults. Retrieved November 17, 2015, from www.cdc.gov: CDC MMWR State Specific Incidence of Diabetes, http://www.cdc.gov/mmwr/preview/mmwrhtml/mm5743a2.htm",
+      "format": "Chart",
+      "name": "number-of-adults-with-diagnosed-diabetes",
+      "path": "https://letsgethealthy.ca.gov/goals/living-well/decreasing-diabetes-prevalence/#_data-snapshot",
+      "title": "Number of Adults with Diagnosed Diabetes"
+    }
+  ],
+  "secondary_sources": "",
+  "sources": [
+    {
+      "name": "Chronic Disease Surveillance and Research Branch (CDSRB), CDPH",
+      "web": "https://www.cdph.ca.gov/Programs/CCDPHP/DCDIC/CDCB/Pages/DiabetesPrevention.aspx"
+    }
+  ],
+  "temporal_coverage": "2012-2018",
+  "title": "Adults with Diabetes Per 100 (LGHC Indicator)"
+}
